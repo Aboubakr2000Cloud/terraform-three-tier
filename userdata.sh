@@ -51,7 +51,7 @@ cat > /var/www/html/index.html << EOF
 EOF
 
 nginx -t
-systemctl start nginx
+systemctl restart nginx
 systemctl enable nginx
 
 echo "=== BOOT END $(date) ==="
