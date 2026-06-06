@@ -8,7 +8,6 @@ resource "aws_db_subnet_group" "this" {
 resource "aws_db_instance" "this" {
   identifier        = "${var.name_prefix}-db"
   engine            = "mysql"
-  engine_version    = "8.0.35"
   instance_class    = var.db_instance_class
   allocated_storage = 20
   storage_type      = "gp3"
@@ -24,7 +23,7 @@ resource "aws_db_instance" "this" {
   publicly_accessible = false
 
   final_snapshot_identifier = "${var.name_prefix}-final-snapshot"
-  skip_final_snapshot       = false
+  skip_final_snapshot       = true
   backup_retention_period   = 1
 
   deletion_protection = false
