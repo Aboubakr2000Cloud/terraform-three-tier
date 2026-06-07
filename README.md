@@ -389,13 +389,13 @@ Auto scaling group:
 ![asg](output_screenshots/asg.png)
 
 RDS_Instance:
-![RDS_instance](output_screenshots/RDS_instance.png)
+![RDS_instance](output_screenshots/rds_instance.png)
 
 Dynamodb State Lock Table:
 ![dynamodb_state_lock](output_screenshots/dynamodb_state_lock.png)
 
 Terraform State S3 Bucket:
-![Terraform_state_S3_bucket](output_screenshots/Terraform_state_S3_bucket.png)
+![Terraform_state_S3_bucket](output_screenshots/terraform_state_S3_bucket.png)
 
 GitHub Actions — Pull Request Plan:
 ![github_actions_plan](output_screenshots/github_actions_plan.png)
