@@ -38,7 +38,7 @@ NGINXEOF
 cat > /var/www/html/index.html << EOF
 <!DOCTYPE html>
 <html>
-  <head><title>Week 16 — Terraform Modules</title></head>
+  <head><title>Terraform Modules</title></head>
   <body>
     <h1>Three-Tier Infrastructure via Terraform Modules</h1>
     <p><strong>Instance ID:</strong> $INSTANCE_ID</p>

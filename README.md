@@ -1,10 +1,8 @@
-# ☁️ Week 16 — Terraform Three-Tier Infrastructure: `terraform-three-tier`
-
-> **Cloud Engineering Roadmap** · Week 16 of 24
+# ☁️ Terraform Three-Tier Infrastructure: `terraform-three-tier`
 
 A fully modular Terraform project that deploys a production-style three-tier AWS architecture using reusable modules, remote state management, state locking, and GitHub Actions CI/CD.
 
-This project rebuilds the infrastructure from previous networking, load balancing, and database weeks — but this time using Infrastructure as Code (IaC) and modern Terraform workflows.
+This project rebuilds the infrastructure from previous networking, load balancing, and database projects — but this time using Infrastructure as Code (IaC) and modern Terraform workflows.
 
 ---
 

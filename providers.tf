@@ -19,7 +19,6 @@ provider "aws" {
       Project     = "terraform-three-tier"
       Environment = var.environment
       ManagedBy   = "terraform"
-      Week        = "16"
     }
   }
 }

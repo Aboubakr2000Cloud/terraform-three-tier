@@ -4,7 +4,6 @@ locals {
     Project     = "terraform-three-tier"
     Environment = var.environment
     ManagedBy   = "terraform"
-    Week        = "16"
     Owner       = "Abou"
   }
 }
